@@ -40,7 +40,7 @@ create table TheThuVien
 	SoThe int identity(1,1),
 	NgayBatDau datetime,
 	NgayHetHan datetime,
-	T
+	constraint PK_TheThuVien primary key (SoThe)
 )
 
 create table DocGia
