@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB_PTUD_PQNG">
+  <DataContextMoniker Name="/DB_PTUD_PQNGDataContext" />
+  <nestedChildShapes>
+    <classShape Id="156315b4-5ccd-44aa-80cf-6c706a6b5c25" absoluteBounds="0.75, 1, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DB_PTUD_PQNGDataContext/ManHinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="566b1d6f-1b55-4e9e-bd7c-17aef83eee72" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29a643a8-00f2-4d20-bcf7-538a95d30ebc" absoluteBounds="3.5, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/DB_PTUD_PQNGDataContext/PhanQuyen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24bd569c-f97a-43ad-927e-7b2799e58964" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfe939b2-52b9-4d5c-a730-18a6f6b41734" absoluteBounds="3.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DB_PTUD_PQNGDataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d767540-4e4a-403d-a65b-f6065ff50ac6" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8fa99b5f-1d4f-44f0-9814-33b61201cdfb" absoluteBounds="0.75, 3.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DB_PTUD_PQNGDataContext/NhomNguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="175a3e71-649f-48a9-844b-3956fa463dc1" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.59699625651042); (3.04166666666667 : 1.59699625651042 : JumpStart); (3.20833333333333 : 1.59699625651042 : JumpEnd); (3.5 : 1.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_PTUD_PQNGDataContext/ManHinh/ManHinh_PhanQuyen" />
+      <nodes>
+        <classShapeMoniker Id="156315b4-5ccd-44aa-80cf-6c706a6b5c25" />
+        <classShapeMoniker Id="29a643a8-00f2-4d20-bcf7-538a95d30ebc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.875); (3.125 : 3.5); (3.125 : 1.20474612825521); (3.5 : 1.20474612825521)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB_PTUD_PQNGDataContext/NhomNguoiDung/NhomNguoiDung_PhanQuyen" />
+      <nodes>
+        <classShapeMoniker Id="8fa99b5f-1d4f-44f0-9814-33b61201cdfb" />
+        <classShapeMoniker Id="29a643a8-00f2-4d20-bcf7-538a95d30ebc" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
