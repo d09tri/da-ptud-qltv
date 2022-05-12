@@ -24,7 +24,11 @@ namespace DAL
 
         public string GetMaNhom(string tenDangNhap)
         {
-
+            NguoiDung nd = dataContext.NguoiDungs.Where(t => t.TenDangNhap.Equals(tenDangNhap)).FirstOrDefault();
+            if (nd != null)
+                return nd.MaNhom;
+            else
+                return "NULL";
         }
     }
 }

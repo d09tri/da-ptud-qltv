@@ -16,5 +16,10 @@ namespace BLL
         {
             return nguoiDungDAL.KiemTraDangNhap(tenDangNhap, matKhau);
         }
+
+        public string LoadMaNhom(string tenDangNhap)
+        {
+            return nguoiDungDAL.GetMaNhom(tenDangNhap);
+        }
     }
 }

@@ -30,8 +30,9 @@ namespace GUI
         {
             if (nguoiDungBLL.DangNhap(txtTenDangNhap.Text, txtMatKhau.Text))
             {
+                string maNhom = nguoiDungBLL.LoadMaNhom(txtTenDangNhap.Text);
                 if (Program.frmTrangChu == null || Program.frmTrangChu.IsDisposed)
-                    Program.frmTrangChu = new FrmTrangChu();
+                    Program.frmTrangChu = new FrmTrangChu(maNhom);
                 this.Visible = false;
                 Program.frmTrangChu.Show();
             }
