@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectSettings.Properties;       
+using ProjectSettings.Properties; // Using cái này đầu tiên
 
 namespace DAL
 {
@@ -14,6 +14,8 @@ namespace DAL
         /// để kết nối cơ sở dữ liệu, việc thay đổi UserConnectionString sẽ tiện cho việc thay thế toàn bộ kết nối nhanh chóng hơn
         /// </summary>
         string TestConnectionString = Settings.Default.UserConnectionString;
+
+       
 
         public TestDAL() { }
 

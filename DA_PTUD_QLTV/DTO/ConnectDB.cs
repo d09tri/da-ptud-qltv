@@ -72,7 +72,7 @@ namespace DTO
 
         public bool CheckDatabase()
         {
-            return this.Database.Equals("DB_PTPM_QLTV") ? true : false;
+            return this.Database.Equals("DB_PTUD_QLTV") ? true : false;
         }
     }
 }
