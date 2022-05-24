@@ -59,12 +59,6 @@ namespace DTO
     partial void DeleteTheThuVien(TheThuVien instance);
     #endregion
 		
-		public DB_PTUD_QLTVDataContext() : 
-				base(global::DTO.Properties.Settings.Default.DB_PTUD_QLTVConnectionString, mappingSource)
-		{
-			OnCreated();
-		}
-		
 		public DB_PTUD_QLTVDataContext(string connection) : 
 				base(connection, mappingSource)
 		{
