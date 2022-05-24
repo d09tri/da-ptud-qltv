@@ -101,9 +101,3 @@ alter table ChiTietMuonTra add
 constraint FK_MuonTra_CTMT foreign key (MaMuonTra) references MuonTra (MaMuonTra),
 constraint FK_Sach_CTMT foreign key (MaSach) references Sach (MaSach)
 
--- View
-create view view_Sach as
-SELECT TenSach
-FROM Sach
-
--- Trigger
