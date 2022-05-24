@@ -70,7 +70,7 @@
         <classShapeMoniker Id="92b95d89-08a5-45d0-a4f9-b8b2705f56a5" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(4.5 : 3.625); (4.5 : 2.10942510742187); (6.25 : 2.10942510742187)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(4.5 : 3.625); (4.5 : 2.10942510742187); (5.79166666666667 : 2.10942510742187 : JumpStart); (5.95833333333333 : 2.10942510742187 : JumpEnd); (6.25 : 2.10942510742187)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/DB_PTUD_QLTVDataContext/Sach/Sach_ChiTietMuonTra" />
       <nodes>
         <classShapeMoniker Id="5fe52750-2d5c-4be7-a3be-af821dbc6825" />

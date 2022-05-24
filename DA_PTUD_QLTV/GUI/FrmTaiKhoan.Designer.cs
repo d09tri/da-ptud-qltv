@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class FrmDocGia
+    partial class FrmTaiKhoan
     {
         /// <summary>
         /// Required designer variable.
@@ -42,8 +42,8 @@
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1266, 154);
-            this.pnlHeader.TabIndex = 1;
+            this.pnlHeader.Size = new System.Drawing.Size(1244, 154);
+            this.pnlHeader.TabIndex = 5;
             // 
             // lblHeader
             // 
@@ -52,30 +52,29 @@
             this.lblHeader.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblHeader.Location = new System.Drawing.Point(0, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(1266, 154);
+            this.lblHeader.Size = new System.Drawing.Size(1244, 154);
             this.lblHeader.TabIndex = 13;
-            this.lblHeader.Text = "QUẢN LÝ ĐỘC GIẢ";
+            this.lblHeader.Text = "HỆ THỐNG TÀI KHOẢNG";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlBody
             // 
             this.pnlBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBody.Location = new System.Drawing.Point(0, 154);
+            this.pnlBody.Location = new System.Drawing.Point(0, 0);
             this.pnlBody.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBody.Name = "pnlBody";
-            this.pnlBody.Size = new System.Drawing.Size(1266, 740);
-            this.pnlBody.TabIndex = 2;
+            this.pnlBody.Size = new System.Drawing.Size(1244, 684);
+            this.pnlBody.TabIndex = 6;
             // 
-            // FrmDocGia
+            // FrmTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1266, 894);
-            this.Controls.Add(this.pnlBody);
+            this.ClientSize = new System.Drawing.Size(1244, 684);
             this.Controls.Add(this.pnlHeader);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FrmDocGia";
-            this.Text = "FrmDocGia";
+            this.Controls.Add(this.pnlBody);
+            this.Name = "FrmTaiKhoan";
+            this.Text = "FrmTaiKhoan";
             this.pnlHeader.ResumeLayout(false);
             this.ResumeLayout(false);
 

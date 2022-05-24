@@ -77,33 +77,47 @@ namespace GUI
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
+            FrmNhanVien frm = new FrmNhanVien();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
 
         private void btnSach_Click(object sender, EventArgs e)
         {
+
+            FrmSach frm = new FrmSach();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
 
         private void btnTheLoai_Click(object sender, EventArgs e)
         {
+            FrmTheLoai frm = new FrmTheLoai();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
 
         private void btnTacGia_Click(object sender, EventArgs e)
         {
+            FrmTacGia frm = new FrmTacGia();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
         #endregion
 
         #region Chức năng
-        private void btnDatBao_Click(object sender, EventArgs e)
+        private void btnMuonTra_Click(object sender, EventArgs e)
         {
+            FrmMuonTra frm = new FrmMuonTra();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
+
+            FrmThongKe frm = new FrmThongKe();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
         #endregion
@@ -121,13 +135,22 @@ namespace GUI
 
         private void btnTaiKhoan_Click(object sender, EventArgs e)
         {
+            FrmTaiKhoan frm = new FrmTaiKhoan();
+            utl.LoadChildForm(frm, pnlMain);
             HideSubMenu();
         }
+      
         #endregion
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
 
         }
+
+       
+
+     
+
+      
     }
 }
