@@ -144,7 +144,15 @@ namespace GUI
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
+            DialogResult rs = MessageBox.Show("Xác nhận đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (rs == DialogResult.Yes)
+            {
+                this.SetVisibleCore(false);
+                FrmDangNhap frm = new FrmDangNhap();
+                frm.Show();
+            }
 
+            return;
         }
     }
 }
